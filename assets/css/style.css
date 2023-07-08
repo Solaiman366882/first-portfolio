@@ -37,6 +37,11 @@ h3{
     font-size: 45px;
     font-weight: 600;
 }
+h4{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
 h5{
     color: #181818;
     font-size: 20px;
@@ -228,7 +233,56 @@ a.logo span{
 }
 /* === What Section Css End === */
 
+/* === Resume Section Css Start === */
+.resume-section {
+	width: 100%;
+	padding: 130px 0;
+	background: #fff;
+}
+.resume-section .resume-info {
+	width: 100%;
+	margin-top: 100px;
+	display: flex;
+	gap: 25px;
+}
+.resume-section .resume-info h2{
+	color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+}
+.resume-section .resume-info .resume-right ,
+.resume-section .resume-info .resume-left {
+	width: 50%;
+}
+.resume-section .resume-info .resume-right .single-info, .resume-section .resume-info .resume-left .single-info {
+	padding: 30px 75px 30px 0;
+	border-bottom: 1px solid #D1D1D1;
+}
+.resume-section .resume-info .resume-right .single-info span,
+.resume-section .resume-info .resume-left .single-info span {
+	color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.resume-section .resume-info .resume-right .single-info p,
+.resume-section .resume-info .resume-left .single-info p {
+	color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+.resume-section .resume-info .resume-right .single-info:last-child,
+.resume-section .resume-info .resume-left .single-info:last-child {
+	border: none;
+}
+.resume-btn {
+	text-align: center;
+}
 
+/* === Resume Section Css End === */
 
 
 
