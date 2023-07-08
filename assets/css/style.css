@@ -299,4 +299,66 @@ a.logo span{
 
 
 /* === Header Section Css Start === */
+.footer-section {
+	background: #FFF8F3;
+	padding: 130px 0;
+}
+.footer-section p{
+	font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-section h2{
+	text-align: left;
+}
+.footer-section img{
+	width: 24px;
+    height: 24px;
+}
+.footer-section .social-icon {
+	display: flex;
+	gap: 25px;
+}
+.footer-section .footer-area {
+	width: 100%;
+	display: flex;
+	gap: 100px;
+}
+.footer-section .footer-area .footer-left,
+.footer-section .footer-area .footer-right{
+	width: 50%;
+}
+.footer-section .footer-area .form-area {
+	width: 100%;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.footer-section .footer-area .form-area .single-input input[type="text"],
+ .footer-section .footer-area .form-area .single-input input[type="email"] {
+	width: 100%;
+	height: 60px;
+	color: #757575;
+	font-size: 16px;
+	line-height: 28px;
+	border: none;
+	padding-left: 30px;
+	background: #fff;
+	border-radius: 5px;
+    outline: none;
+}
+ .footer-section .footer-area .form-area .single-input textarea{
+	width: 100%;
+	height: 180px;
+	color: #757575;
+	font-size: 16px;
+	line-height: 28px;
+	border: none;
+	padding-left: 30px;
+	background: #fff;
+	border-radius: 5px;
+    outline: none;
+    padding-top: 20px;
+}
 /* === Header Section Css End === */
